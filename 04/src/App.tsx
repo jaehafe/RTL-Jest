@@ -1,5 +1,10 @@
 import React from 'react';
+import SummaryForm from './pages/summary/SummaryForm';
 
 export default function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <SummaryForm />
+    </div>
+  );
 }
