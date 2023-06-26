@@ -34,7 +34,7 @@ test('popover responds to hover', async () => {
   render(<SummaryForm />);
 
   // 처음에는 hidden
-  const nullPopover = screen.quferyByText(
+  const nullPopover = screen.queryByText(
     /no ice cream will actually be delivered/i
   );
   expect(nullPopover).not.toBeInTheDocument();
