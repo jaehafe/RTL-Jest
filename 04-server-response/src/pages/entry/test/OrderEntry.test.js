@@ -24,4 +24,5 @@ test.only('handles error for scoops and toppings routes', async () => {
   });
 });
 
+// skip
 test.skip('no', () => {});
